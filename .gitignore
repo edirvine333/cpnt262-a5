@@ -1,0 +1,16 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# dotenv environment variables files
+.env
+.env.test
+
+# log files
+logs
+*.logsnpm-debug.log*
+*.bak
+
+# dependency directories
+node_modules
+jspm_packages
