@@ -7,10 +7,8 @@ const router = express.Router()
 //  Problem with this block of code
 router.get('/images/:id', function (req, res) {
   const guitar = Guitar.find(function (item) {
-    console.log(item)                   //  testing: logs "null"
-    console.log(Guitar)                 //  testing: logs "Model { Guitar }"
-    //  return item.id = req.params.id  //  crashes server TypeError: Cannot read property 'id' of null
-    return item === req.params.id       //  See Notes 
+//  return item.id = req.params.id            //  crashes server TypeError: Cannot read property 'id' of null
+    return item === req.params.id             //  See Notes 
   })
   
   //  Error handling if .find comes back false (found no matching value)
@@ -20,7 +18,6 @@ router.get('/images/:id', function (req, res) {
   }
 
   //  Renders the page "single-item.ejs" and passes the variables
-  console.log(guitar.id)   //  testing:  logs "undefined"
   res.render('pages/single-item.ejs', {
     pageTitle: 'CPNT262-A5 Single Image Page',
     guitarTitle: guitar.title,

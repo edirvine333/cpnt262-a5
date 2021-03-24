@@ -14,7 +14,7 @@ mongoose.connect(
     //  Custom 500 Internal Server error page
     res.status(500)
     res.sendFile(__dirname +'/public/500.html')
-    
+
   });
   
 module.exports = mongoose;
