@@ -1,3 +1,5 @@
+//  Connects to the MongoDB Atlas database
+
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
 
@@ -18,6 +20,16 @@ mongoose.connect(
   });
   
 module.exports = mongoose;
+
+//  *****************************************  COMMENTS  ***************************************************
+// 
+//  Line 3:  Loads the mongoose npm package
+//  Line 4:  Loads the environment variable MONGODB_URL from the .env file
+//  Line 6 - 20:  Magically connects to the db!!
+//
+//  Line 16 - 18:  Call for custom 500 error page
+//
+//  ********************************************************************************************************
 
 //  Attribution
 //  Sample Code - _connection.js
