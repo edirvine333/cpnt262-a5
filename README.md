@@ -14,7 +14,6 @@ Repo Maintainer: Ed Irvine
 
 1.  Much of this code was cut and pasted, but I am gaining an ability to read code, and if I can read it, I can understand it and feel comfortable using it.  And if I don't understand it, I am gaining knowledge of the tools that can be used to figure it out.  
 2.  Refactored Assignment 4, so issues from that assignment may carry into this one.  Knowledge was gained by refactoring, rather than starting fresh.  
-3.  
 
 ## ATTRIBUTIONS 
 
