@@ -20,7 +20,3 @@ Guitar.insertMany(dbSeed, function(error, guitar) {
 //  Line 9 - 11: Magically imports the data and console.logs when complete!!
 //
 //  **************************************************************************************************************
-
-//  Attribution
-//  Sample Code : import.js
-//  https://github.com/sait-wbdv/sample-code/blob/master/backend/mongoose/2-sample-import/import.js

@@ -37,7 +37,3 @@ module.exports = router
 //  Line 24: Defines the script as a module with the name router
 //
 //  ******************************************************************************************************************************
-
-//  Attribution
-//  Sample Code
-//  https://github.com/sait-wbdv/in-class/blob/main/w10r/2-definitions-atlas/routes/api-v0.js

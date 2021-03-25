@@ -3,12 +3,17 @@
 Date:  March 25,2021  
 
 GitHub Repo: [cpnt262-a5](https://github.com/edirvine333/cpnt262-a5)    
-Heroku App: []()  
-Heroku API Link:   
-
+Heroku App: [sait-wbdv-cpnt262-a5](https://sait-wbdv-cpnt262-a5.herokuapp.com/)    
 
 Repo Owner: Ed Irvine  
 Repo Maintainer: Ed Irvine  
+
+## ROUTES
+/    
+/login  
+/register  
+/images/id - route to single image    
+
 
 ## NOTES  
 

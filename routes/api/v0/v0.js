@@ -29,8 +29,3 @@ module.exports = router
 //  Line 19: Defines the script as a routing module with the name router
 //
 //  **************************************************************************************************************************
-//  
-//  Attribution
-//  Sample Code
-//  https://github.com/sait-wbdv/sample-code/blob/master/backend/mongoose/3-definitions-atlas/routes/api-v0.js
-
